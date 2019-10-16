@@ -17,7 +17,7 @@ end
 def pop_with_args(array)
   # @dog_breeds = ["Great Dane", "Golden Retrievers", "Chihuahua", "Shiba Inu"]
   # @small_dogs = ["Chihuahua", "Shiba Inu"]
-  array.pop(2)
+  .parrayop(2)
 end
 
 def using_shift(array)
