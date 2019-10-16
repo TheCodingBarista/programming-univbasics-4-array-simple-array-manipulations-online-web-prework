@@ -49,9 +49,11 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  @dog_breeds = ["Great Dane", "Golden Retrievers", "Chihuahua", "Shiba Inu"]
-  @small_dogs = ["Chihuahua", "Shiba Inu"]
-  @dog_breeds.pop(2)
+  # @dog_breeds = ["Great Dane", "Golden Retrievers", "Chihuahua", "Shiba Inu"]
+  # @small_dogs = ["Chihuahua", "Shiba Inu"]
+  # @dog_breeds.pop(2)
+  
+  array.pop
 end
 
 def using_shift(array)
@@ -66,8 +68,10 @@ def shift_with_args(array)
   @ice_cream_brands.shift(2)
 end
 
-def using_concat(array, array2)
-  @my_favorite_things = ["raindrops on roses", "whiskers_on_kittens"]
-  more_favs = ["sports cars", "flatiron school"]
-  @my_favorite_things.concat(@my_favorite_things, more_favs)
+def using_concat(array1, array2)
+  # @my_favorite_things = ["raindrops on roses", "whiskers_on_kittens"]
+  # more_favs = ["sports cars", "flatiron school"]
+  # @my_favorite_things.concat(@my_favorite_things, more_favs)
+  
+  array1.concat(array2)
 end
